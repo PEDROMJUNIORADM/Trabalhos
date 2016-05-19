@@ -54,6 +54,8 @@ Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Jeferson Machado `@jefersonnnn <https://github.com/jefersonnnn>`_
 
+- Felipe Walther de Souza `@Walthers <https://github.com/Walthers>`_
+
 - Jean Pytter da Costa `@Jeanpytter <https://github.com/Jeanpytter>`_
 
 - Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_

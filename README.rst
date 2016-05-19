@@ -1,4 +1,4 @@
-.. figure:: logounivilleeng.jpg
+﻿.. figure:: logounivilleeng.jpg
   :alt: Univille ENG
 
 
@@ -18,7 +18,8 @@ MySQL
 ~~~~~
 
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
-Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, Bruno
+Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, 
+- Bruno `@brunofagundes <https://github.com/brunofagundes>`_
 
 PostgreSQL
 ~~~~~~~~~~

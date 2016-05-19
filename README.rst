@@ -18,7 +18,9 @@ MySQL
 ~~~~~
 
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
-Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, Bruno
+Felipe Aug, Leonardo, Douglas, 
+Alisson `@alisonmazur <https://github.com/alisonmazur>`_ , 
+João, Erick, Bruno
 
 PostgreSQL
 ~~~~~~~~~~

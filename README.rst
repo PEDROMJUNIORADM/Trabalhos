@@ -1,4 +1,4 @@
-.. figure:: logounivilleeng.jpg
+﻿.. figure:: logounivilleeng.jpg
   :alt: Univille ENG
 
 
@@ -51,7 +51,7 @@ Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Jeferson Machado `@jefersonnnn <https://github.com/jefersonnnn>`_
 
-Jean Peter
+- Jean Pytter da Costa `@Jeanpytter <https://github.com/Jeanpytter>`_
 
 * RH/Pessoal
 * Financeiro/Tesouraria

@@ -16,9 +16,17 @@ Com base no script ``MinhaCaixa.sql`` que foi desenvolvido para MSSQL Server por
 
 MySQL
 ~~~~~
-
+- Bruno `@brunofagundes <https://github.com/brunofagundes>`_
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
-Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, Bruno
+<<<<<<< HEAD
+Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, 
+
+=======
+Felipe Aug, Leonardo, Douglas, 
+Alisson `@alisonmazur <https://github.com/alisonmazur>`_ , 
+João, Erick, 
+- Bruno `@brunofagundes <https://github.com/brunofagundes>`_
+>>>>>>> 6e5a7a2cdec048f7e1071af969f4f4c8d9e9fa94
 
 PostgreSQL
 ~~~~~~~~~~
@@ -46,13 +54,17 @@ Guilherme Borges, Rodrigo
 SQL Server
 ~~~~~~~~~~
 
-Renan, Karlos, Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul, Luis Eduardo
+Renan, Karlos, Felipe Walther, Gabriel Maia, Andrei, Guilherme A, Jose Raul, Luis Eduardo
 
-Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
+- Miguel Joao `@migueljoaod <https://github.com/migueljoaod>`_
+
+- Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Fabiane Machado `@FabianeMachado <https://github.com/FabianeMachado>`_
 
 - Jeferson Machado `@jefersonnnn <https://github.com/jefersonnnn>`_
+
+- Felipe Walther de Souza `@Walthers <https://github.com/Walthers>`_
 
 - Jean Pytter da Costa `@Jeanpytter <https://github.com/Jeanpytter>`_
 

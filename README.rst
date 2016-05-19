@@ -27,9 +27,9 @@ PostgreSQL
 
 - Gabriel Cunha `@cunhazera <https://github.com/cunhazera>`_
 
-- Jonathan
+- Jonathan Kerwin `@JonathanKerwin <https://github.com/JonathanKerwin>`_
 
-- Kerolayne
+- Kerolayne Souza `@kerolayne <https://github.com/kerolayne>`_
 
 
 Oracle

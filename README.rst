@@ -46,9 +46,11 @@ Guilherme Borges, Rodrigo
 SQL Server
 ~~~~~~~~~~
 
-Renan, Karlos, Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul, Luis Eduardo
+Renan, Karlos, Felipe Walther, Gabriel Maia, Andrei, Guilherme A, Jose Raul, Luis Eduardo
 
-Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
+- Miguel Joao `@migueljoaod <https://github.com/migueljoaod>`_
+
+- Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Fabiane Machado `@FabianeMachado <https://github.com/FabianeMachado>`_
 

@@ -16,10 +16,10 @@ Com base no script ``MinhaCaixa.sql`` que foi desenvolvido para MSSQL Server por
 
 MySQL
 ~~~~~
-
+- Bruno `@brunofagundes <https://github.com/brunofagundes>`_
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
 Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, 
-- Bruno `@brunofagundes <https://github.com/brunofagundes>`_
+
 
 PostgreSQL
 ~~~~~~~~~~

@@ -16,7 +16,7 @@ Com base no script ``MinhaCaixa.sql`` que foi desenvolvido para MSSQL Server por
 
 MySQL
 ~~~~~
-
+- Douglas `@DouglasGiovanella <https://github.com/douglasgiovanella>`_,
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
 Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, Bruno
 

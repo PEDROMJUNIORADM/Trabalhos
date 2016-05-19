@@ -1,4 +1,4 @@
-.. figure:: logounivilleeng.jpg
+﻿.. figure:: logounivilleeng.jpg
   :alt: Univille ENG
 
 
@@ -25,7 +25,11 @@ PostgreSQL
 
 - Eduardo Klosowski `@eduardoklosowski <https://github.com/eduardoklosowski>`_
 
-Gabriel Cunha, Jonathan, Kerolayne
+- Gabriel Cunha `@cunhazera <https://github.com/cunhazera>`_
+
+- Jonathan
+
+- Kerolayne
 
 
 Oracle
@@ -50,9 +54,9 @@ Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Jeferson Machado `@jefersonnnn <https://github.com/jefersonnnn>`_
 
-- Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_
+- Jean Pytter da Costa `@Jeanpytter <https://github.com/Jeanpytter>`_
 
-Jean Peter
+- Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_
 
 * RH/Pessoal
 * Financeiro/Tesouraria

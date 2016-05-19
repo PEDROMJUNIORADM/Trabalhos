@@ -18,15 +18,26 @@ MySQL
 ~~~~~
 - Bruno `@brunofagundes <https://github.com/brunofagundes>`_
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
+<<<<<<< HEAD
 Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, 
 
+=======
+Felipe Aug, Leonardo, Douglas, 
+Alisson `@alisonmazur <https://github.com/alisonmazur>`_ , 
+João, Erick, 
+- Bruno `@brunofagundes <https://github.com/brunofagundes>`_
+>>>>>>> 6e5a7a2cdec048f7e1071af969f4f4c8d9e9fa94
 
 PostgreSQL
 ~~~~~~~~~~
 
 - Eduardo Klosowski `@eduardoklosowski <https://github.com/eduardoklosowski>`_
 
-Gabriel Cunha, Jonathan, Kerolayne
+- Gabriel Cunha `@cunhazera <https://github.com/cunhazera>`_
+
+- Jonathan
+
+- Kerolayne
 
 
 Oracle
@@ -43,16 +54,21 @@ Guilherme Borges, Rodrigo
 SQL Server
 ~~~~~~~~~~
 
-Renan, Karlos, Felipe Walther, Gabriel Maia, Miguel
-Murilo, Andrei, Guilherme A, Jose Raul, Luis Eduardo
+Renan, Karlos, Felipe Walther, Gabriel Maia, Andrei, Guilherme A, Jose Raul, Luis Eduardo
 
-Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
+- Miguel Joao `@migueljoaod <https://github.com/migueljoaod>`_
+
+- Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Fabiane Machado `@FabianeMachado <https://github.com/FabianeMachado>`_
 
 - Jeferson Machado `@jefersonnnn <https://github.com/jefersonnnn>`_
 
-Jean Peter
+- Felipe Walther de Souza `@Walthers <https://github.com/Walthers>`_
+
+- Jean Pytter da Costa `@Jeanpytter <https://github.com/Jeanpytter>`_
+
+- Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_
 
 * RH/Pessoal
 * Financeiro/Tesouraria

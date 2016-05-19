@@ -1,4 +1,4 @@
-CREATE TABLE Grupo( 
+﻿CREATE TABLE Grupo( 
  GrupoCodigo INT CONSTRAINT PK_Grupo PRIMARY KEY
 ,GrupoNome VARCHAR (50)
 ,GrupoRazaoSocial VARCHAR (50)
@@ -79,7 +79,7 @@ CREATE TABLE Agencias
 AgenciaCodigo INT CONSTRAINT PK_Agencias PRIMARY KEY
 ,AgenciaNome VARCHAR (50)
 ,AgenciaCidade VARCHAR (50)
-,AgenciaFundos MONEY  --pesquisar sobre MONEY
+,AgenciaFundos NUMBER(19,4) --pesquisar sobre MONEY --pesquisei e o data type semelhante ao MONEY, No Oracle MONEY = NUMBER(Casas antes da linha,Casas depois da linha) 
 ,GrupoCodigo INT
 )
 
@@ -116,7 +116,7 @@ CREATE TABLE Contas
  AgenciaCodigo INT
 ,ContaNumero VARCHAR (10) CONSTRAINT PK_CONTA PRIMARY KEY
 ,ClienteCodigo INT
-,ContaSaldo MONEY
+,ContaSaldo NUMBER(19,4)
 ,ContaAbertura DATE
 )
 
@@ -152,7 +152,7 @@ CREATE TABLE Emprestimos
  AgenciaCodigo INT
 ,ClienteCodigo INT
 ,EmprestimoCodigo VARCHAR (10)
-,EmprestimoTotal MONEY
+,EmprestimoTotal NUMBER(19,4)
 )
 
 GO
@@ -180,7 +180,7 @@ CREATE TABLE Depositantes
 AgenciaCodigo INT,
 ,ContaNumero VARCHAR (10)
 ,ClienteCodigo INT
-,DepositoValor MONEY
+,DepositoValor NUMBER(19,4)
 ,DepositoData DATE
 )
 
@@ -219,7 +219,7 @@ CREATE TABLE Devedores
 AgenciaCodigo INT
 ,ClienteCodigo INT
 ,EmprestimoCodigo VARCHAR (10)
-,DevedorSaldo MONEY
+,DevedorSaldo NUMBER(19,4)
 )
 
 ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_AGENGIA 
@@ -248,7 +248,7 @@ CREATE TABLE CartaoCredito
 AgenciaCodigo INT
 ,ClienteCodigo INT
 ,CartaoCodigo VARCHAR (20)
-,CartaoLimite MONEY
+,CartaoLimite NUMBER(19,4)
 )
 
 ALTER TABLE CartaoCredito ADD CONSTRAINT FK_CARTAOCREDITO_AGENGIA FOREIGN KEY (AgenciaCodigo) REFERENCES Agencias

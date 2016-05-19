@@ -47,7 +47,7 @@ Murilo, Andrei, Guilherme A, Jose Raul, Luis Eduardo
 
 Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
-Fabiane
+- Fabiane Machado `@FabianeMachado <https://github.com/FabianeMachado>`_
 
 - Jeferson Machado `@jefersonnnn <https://github.com/jefersonnnn>`_
 

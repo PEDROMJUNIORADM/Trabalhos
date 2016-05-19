@@ -25,11 +25,11 @@ PostgreSQL
 
 - Eduardo Klosowski `@eduardoklosowski <https://github.com/eduardoklosowski>`_
 
- - Gabriel Cunha `@cunhazera <https://github.com/cunhazera>`_
+- Gabriel Cunha `@cunhazera <https://github.com/cunhazera>`_
 
- - Jonathan
+- Jonathan
 
- - Kerolayne
+- Kerolayne
 
 
 Oracle

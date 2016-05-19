@@ -17,8 +17,8 @@ Com base no script ``MinhaCaixa.sql`` que foi desenvolvido para MSSQL Server por
 MySQL
 ~~~~~
 
-Rafael Martins, Felipe Aug, Leonardo, Douglas, Alisson
-João, Erick, Bruno
+- Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
+Felipe Aug, Leonardo, Douglas, Alisson, João, Erick, Bruno
 
 PostgreSQL
 ~~~~~~~~~~
@@ -45,7 +45,7 @@ SQL Server
 Renan, Karlos, Felipe Walther, Gabriel Maia, Miguel
 Murilo, Andrei, Guilherme A, Jose Raul, Luis Eduardo
 
-- Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
+Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Fabiane Machado `@FabianeMachado <https://github.com/FabianeMachado>`_
 

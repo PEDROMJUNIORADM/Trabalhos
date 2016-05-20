@@ -12,7 +12,7 @@ Banco de dados Minha Caixa para PostgreSQL.
 Links
 -----
 
-- `Tarefas <https://tree.taiga.io/project/eduardoklosowski-bdaeng-postgresql-trabalho-1/>`_
+- `Tarefas <https://tree.taiga.io/project/eduardoklosowski-bdaeng-postgresql-trabalho-1/taskboard/primeiro-2>`_
 
 
 Como Resolver Tarefas

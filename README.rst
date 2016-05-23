@@ -63,6 +63,8 @@ Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Jean Pytter da Costa `@Jeanpytter <https://github.com/Jeanpytter>`_
 
+- Luis Eduardo Simplício `@LuisEduardoS <https://github.com/luiseduardos>`_
+
 - Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_
 
 * RH/Pessoal

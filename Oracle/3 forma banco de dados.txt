@@ -1,0 +1,8 @@
+Grupo( GrupoCodigo,GrupoNome,GrupoRazaoSocial,GrupoCNPJ )
+Clientes(ClienteCodigo,ClienteNome,ClienteRua,ClienteCidade,ClienteNascimento)
+Agencias(AgenciaCodigo,AgenciaNome,AgenciaCidade,AgenciaFundos,GrupoCodigo)
+Contas(AgenciaCodigo,ContaNumero,ClienteCodigo,ContaSaldo,ContaAbertura)
+Emprestimos(AgenciaCodigo,ClienteCodigo,EmprestimoCodigo,EmprestimoTotal)
+Depositantes(AgenciaCodigo,ContaNumero,ClienteCodigo,DepositoValor,DepositoData)
+Devedores(AgenciaCodigo,ClienteCodigo,EmprestimoCodigo,DevedorSaldo)
+CartaoCredito(AgenciaCodigo,ClienteCodigo,CartaoCodigo,CartaoLimite)

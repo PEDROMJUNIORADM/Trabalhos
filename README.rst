@@ -20,7 +20,7 @@ MySQL
 - Bruno `@brunofagundes <https://github.com/brunofagundes>`_,
 - Douglas `@DouglasGiovanella <https://github.com/douglasgiovanella>`_,
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
-- Rafael Martins `@joaovdsampaio <https://github.com/joaovdsampaio>`_, 
+- Joao Sampaio `@joaovdsampaio <https://github.com/joaovdsampaio>`_, 
 Felipe Aug, Leonardo, Erick, Bruno
 
 PostgreSQL

@@ -53,7 +53,7 @@ SQL Server
 
 - Karlos `@karloskep <https://github.com/karloskep>`_
 
-Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul, Luis Eduardo
+Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul
 
 Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 

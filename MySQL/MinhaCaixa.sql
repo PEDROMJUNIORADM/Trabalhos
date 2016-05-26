@@ -1,20 +1,39 @@
-/*CREATE*/
-CREATE TABLE IF NOT EXISTS Grupo
+CREATE TABLE Grupo
 (
-GrupoCodigo INT auto_increment PRIMARY KEY,
-GrupoNome VARCHAR(50),
-GrupoRazaoSocial VARCHAR(50),
-GrupoCNPJ varchar(20)
+	GrupoCodigo int auto_increment,
+	GrupoNome VARCHAR(50),
+	GrupoRazaoSocial VARCHAR(50),
+	GrupoCNPJ varchar(20),
+    constraint PK_Grupo primary key (GrupoCodigo)
 );
 
-create table IF NOT EXISTS Clientes
+INSERT INTO Grupo(GrupoNome, GrupoRazaoSocial, GrupoCNPJ)
+VALUES ('MyBank', 'MyBank International SA', '11.222.333/0001-44');
+
+CREATE TABLE Clientes
 (
-ClienteCodigo int auto_increment PRIMARY KEY,
-ClienteNome varchar (50),
-ClienteRua varchar (50),
-ClienteCidade varchar (50),
-ClienteNascimento datetime
+	ClienteCodigo int auto_increment,
+	ClienteNome varchar (50),
+	ClienteRua varchar (50),
+	ClienteCidade varchar (50),
+	ClienteNascimento datetime,
+    constraint PK_CLIENTES primary key (ClienteCodigo)
+
 );
+
+insert into Clientes values (default,'Ana', 'XV de Novembro','Joinville','1980-08-06');
+insert into Clientes values (default,'Laura','07 de Setembro','Blumenau','1981-08-08');
+insert into Clientes values (default,'Vânia','01 de Maio','Blumenau','1982-08-06');
+insert into Clientes values (default,'Franco','Felipe Schmidt','Florianopolis','1985-08-06');
+insert into Clientes values (default,'Eduardo', 'Beria Mar Norte', 'Florianópolis','1970-11-10');
+insert into Clientes values (default,'Bruno', '24 de maio','Criciúma','1982-07-05');
+insert into Clientes values (default,'Rodrigo','06 de agosto','Joinville','1981-08-06');
+insert into Clientes values (default,'Ricardo','João Colin','Joinville','1980-02-15');
+insert into Clientes values (default,'Alexandre','Margem esquerda','Blumenau','1980-03-07');
+insert into Clientes values (default,'Luciana','Estreito','Florianópolis','1987-09-06');
+insert into Clientes values (default,'Juliana','Iririu','Joinville','1970-01-06');
+insert into Clientes values (default,'Pedro','Aventureiro','Joinville','1975-06-08');
+insert into Clientes values (default,'Julia','Nova Brasília','Joinville','1985-03-18');
 
 CREATE TABLE IF NOT EXISTS Agencias
 (

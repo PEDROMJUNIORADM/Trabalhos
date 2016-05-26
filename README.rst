@@ -50,7 +50,13 @@ SQL Server
 ~~~~~~~~~~
 
 
-- Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul, Luis Eduardo
+- Felipe Walther, 
+- Gabriel Maia, 
+- Miguel, 
+- Andrei, 
+- Guilherme A,
+- Jose Raul, 
+- Luis Eduardo
 
 
 - Renan `@renandaniel <https://github.com/renandaniel>`_
@@ -68,6 +74,7 @@ SQL Server
 - Luis Eduardo Simplício `@LuisEduardoS <https://github.com/luiseduardos>`_
 
 - Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_
+
 
 
 * RH/Pessoal

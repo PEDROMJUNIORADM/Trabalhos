@@ -49,13 +49,15 @@ Guilherme Borges, Rodrigo
 SQL Server
 ~~~~~~~~~~
 
+
+- Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul, Luis Eduardo
+
+
 - Renan `@renandaniel <https://github.com/renandaniel>`_
 
 - Karlos `@karloskep <https://github.com/karloskep>`_
 
-Felipe Walther, Gabriel Maia, Miguel, Andrei, Guilherme A, Jose Raul, Luis Eduardo
-
-Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
+- Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 
 - Fabiane Machado `@FabianeMachado <https://github.com/FabianeMachado>`_
 
@@ -66,6 +68,7 @@ Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 - Luis Eduardo Simplício `@LuisEduardoS <https://github.com/luiseduardos>`_
 
 - Murilo Pereira `@muriilopereira <https://github.com/muriilopereira>`_
+
 
 * RH/Pessoal
 * Financeiro/Tesouraria

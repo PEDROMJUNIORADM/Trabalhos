@@ -118,3 +118,162 @@ FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
 
 /*ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_AGENGIA FOREIGN KEY ( AgenciaCodigo ) REFERENCES Agencias( AgenciaCodigo );*/
 
+
+
+INSERT INTO Grupo(GrupoNome, GrupoRazaoSocial, GrupoCNPJ)
+VALUES ('MyBank',
+        'MyBank International SA',
+        '11.222.333/0001-44');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Ana',
+        'XV de Novembro',
+        'Joinville',
+        '1980-08-06');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Laura',
+        '07 de Setembro',
+        'Blumenau',
+        '1981-08-08');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Vânia',
+        '01 de Maio',
+        'Blumenau',
+        '1982-08-06');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Franco',
+        'Felipe Schmidt',
+        'Florianopolis',
+        '1985-08-06');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Eduardo',
+        'Beria Mar Norte',
+        'Florianópolis',
+        '1970-11-10');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Bruno',
+        '24 de maio',
+        'Criciúma',
+        '1982-07-05');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Rodrigo',
+        '06 de agosto',
+        'Joinville',
+        '1981-08-06');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Ricardo',
+        'João Colin',
+        'Joinville',
+        '1980-02-15');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Alexandre',
+        'Margem esquerda',
+        'Blumenau',
+        '1980-03-07');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Luciana',
+        'Estreito',
+        'Florianópolis',
+        '1987-09-06');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Juliana',
+        'Iririu',
+        'Joinville',
+        '1970-01-06');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Pedro',
+        'Aventureiro',
+        'Joinville',
+        '1975-06-08');
+
+
+INSERT INTO Clientes
+VALUES (DEFAULT,
+        'Julia',
+        'Nova Brasília',
+        'Joinville',
+        '1985-03-18');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

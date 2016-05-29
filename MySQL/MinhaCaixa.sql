@@ -50,20 +50,17 @@ create table IF NOT EXISTS Emprestimos
     AgenciaCodigo INT,
     ClienteCodigo int,
     EmprestimoCodigo varchar (10),
-    EmprestimoTotal DECIMAL(8,2)
+    EmprestimoTotal DECIMAL(8,2),
+    CONSTRAINT PK_EMPRESTIMOS PRIMARY KEY (EmprestimoCodigo)
 );
-
-ALTER TABLE Emprestimos
-ADD CONSTRAINT FK_EMPRESTIMOS_AGENGIA
-FOREIGN KEY (AgenciaCodigo)
-REFERENCES Agencias(AgenciaCodigo);
 
 CREATE TABLE IF NOT EXISTS Depositantes(
     AgenciaCodigo INT,
     ContaNumero varchar( 10 ) ,
     ClienteCodigo int,
     DepositoValor DECIMAL( 8, 2 ) ,
-    DepositoData DATETIME
+    DepositoData DATETIME,
+    CONSTRAINT PK_EMPRESTIMOS PRIMARY KEY (DepositanteCodigo)
 );
 
 create table IF NOT EXISTS Devedores
@@ -71,7 +68,8 @@ create table IF NOT EXISTS Devedores
     AgenciaCodigo INT,
     ClienteCodigo int,
     EmprestimoCodigo varchar (10),
-    DevedorSaldo DECIMAL(8,2)
+    DevedorSaldo DECIMAL(8,2),
+    CONSTRAINT PK_DEVEDORES PRIMARY KEY (DevedorCodigo)
 );
 
 
@@ -80,7 +78,8 @@ create table IF NOT EXISTS CartaoCredito
     AgenciaCodigo INT,
     ClienteCodigo int,
     CartaoCodigo varchar (20),
-    CartaoLimite DECIMAL(8,2)
+    CartaoLimite DECIMAL(8,2),
+    CONSTRAINT PK_CartaoCodigo PRIMARY KEY (CartaoCodigo)
 );
 
 ALTER TABLE Agencias ADD CONSTRAINT FK_GRUPOS_AGENCIAS 
@@ -97,6 +96,12 @@ FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
 
 ALTER TABLE Contas ADD CONSTRAINT FK_AGENCIA_CONTAS 
 FOREIGN KEY  (AgenciaCodigo) REFERENCES Agencias (AgenciaCodigo);
+
+ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_EMPRESTIMO 
+FOREIGN KEY (EmprestimoCodigo) REFERENCES Emprestimos (EmprestimoCodigo);
+
+ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_AGENGIA
+FOREIGN KEY (AgenciaCodigo) REFERENCES Agencias(AgenciaCodigo);
 
 ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_CLIENTES 
 FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
@@ -117,8 +122,6 @@ ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_CONTAS
 FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
 
 /*ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_AGENGIA FOREIGN KEY ( AgenciaCodigo ) REFERENCES Agencias( AgenciaCodigo );*/
-
-
 
 INSERT INTO Grupo(GrupoNome, GrupoRazaoSocial, GrupoCNPJ)
 VALUES ('MyBank',

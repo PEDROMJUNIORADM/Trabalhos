@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS Depositantes(
     ClienteCodigo int,
     DepositoValor DECIMAL( 8, 2 ) ,
     DepositoData DATETIME,
-    CONSTRAINT PK_EMPRESTIMOS PRIMARY KEY (DepositanteCodigo)
+    CONSTRAINT PK_DEPOSITANTES PRIMARY KEY (DepositanteCodigo)
 );
 
 create table IF NOT EXISTS Devedores
@@ -79,7 +79,7 @@ create table IF NOT EXISTS CartaoCredito
     ClienteCodigo int,
     CartaoCodigo varchar (20),
     CartaoLimite DECIMAL(8,2),
-    CONSTRAINT PK_CartaoCodigo PRIMARY KEY (CartaoCodigo)
+    CONSTRAINT PK_CARTAOCREDITO PRIMARY KEY (CartaoCodigo)
 );
 
 ALTER TABLE Agencias ADD CONSTRAINT FK_GRUPOS_AGENCIAS 

@@ -54,7 +54,9 @@ create table IF NOT EXISTS Emprestimos
     CONSTRAINT PK_EMPRESTIMOS PRIMARY KEY (EmprestimoCodigo)
 );
 
-CREATE TABLE IF NOT EXISTS Depositantes(
+CREATE TABLE IF NOT EXISTS Depositantes
+(
+	DepositanteCodigo int auto_increment,
     AgenciaCodigo INT,
     ContaNumero varchar( 10 ) ,
     ClienteCodigo int,
@@ -65,6 +67,7 @@ CREATE TABLE IF NOT EXISTS Depositantes(
 
 create table IF NOT EXISTS Devedores
 (
+	DevedorCodigo int auto_increment,
     AgenciaCodigo INT,
     ClienteCodigo int,
     EmprestimoCodigo varchar (10),

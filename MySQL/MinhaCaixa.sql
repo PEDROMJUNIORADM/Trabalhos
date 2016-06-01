@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS MinhaCaixa;
 /*Create Database*/
 CREATE DATABASE IF NOT EXISTS MinhaCaixa;
 
@@ -124,7 +125,6 @@ FOREIGN KEY  (AgenciaCodigo) REFERENCES Agencias (AgenciaCodigo);
 ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_CONTAS 
 FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
 
-/*ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_AGENGIA FOREIGN KEY ( AgenciaCodigo ) REFERENCES Agencias( AgenciaCodigo );*/
 
 INSERT INTO Grupo(GrupoNome, GrupoRazaoSocial, GrupoCNPJ)
 VALUES ('MyBank',
@@ -235,51 +235,58 @@ VALUES (DEFAULT,
         'Joinville',
         '1985-03-18');
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Verde Vale',
+		'Blumenau', 
+		 900000,
+		 1);
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Cidade das Flores',
+		'Joinville', 
+		 800000,
+		 1);
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Universitária', 
+		'Florianópolis', 
+	 	 750000,
+		 1);
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Joinville', 
+		'Joinville', 
+		 950000,
+		 1);
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Beira Mar', 
+		'Florianópolis',
+		 600000,
+		 1);
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Criciúma', 
+		'Criciúma', 
+		 500000,
+		 1);
 
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Blumenau', 
+		'Blumenau', 
+		 1100000,
+	     1);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+INSERT INTO Agencias 
+VALUES (DEFAULT,
+		'Germânia', 
+		'Blumenau', 
+		 400000,
+		 1);

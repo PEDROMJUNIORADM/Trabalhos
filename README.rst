@@ -56,8 +56,6 @@ SQL Server
 - Andrei, 
 - Guilherme A,
 - Jose Raul, 
-- 
-- Luis Eduardo
 
 
 - Renan `@renandaniel <https://github.com/renandaniel>`_

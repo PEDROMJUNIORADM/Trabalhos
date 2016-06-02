@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS Agencias
     AgenciaCodigo INT auto_increment,
     AgenciaNome VARCHAR (50),
     AgenciaCidade varchar (50),
-    AgenciaFundos decimal(8,2),
+    AgenciaFundos decimal(10,2),
     GrupoCodigo int,
     CONSTRAINT PK_Agencias PRIMARY KEY (AgenciaCodigo)
 );
@@ -290,3 +290,4 @@ VALUES (DEFAULT,
 		'Blumenau', 
 		 400000,
 		 1);
+         

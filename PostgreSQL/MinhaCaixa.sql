@@ -10,3 +10,10 @@ DO $$ BEGIN
   END IF;
 END; $$;
 DROP DATABASE IF EXISTS minha_caixa;
+
+
+-- Cria banco de bados
+
+CREATE DATABASE minha_caixa;
+
+\connect minha_caixa

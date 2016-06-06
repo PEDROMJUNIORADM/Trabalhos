@@ -49,7 +49,7 @@ Oracle
 
 - Johann Sebastian Dulz `@Malboro66 <https://github.com/Malboro66>`_
 
-- Guilherme Romano Borges
+- Guilherme Romano Borges `@guilhermeeborges <https://github.com/guilhermeeborges>`_
 
 - Rodrigo Lucas Medeiros Rufino `@RodrigoRufelix <https://github.com/RodrigoRufelix>`_
 

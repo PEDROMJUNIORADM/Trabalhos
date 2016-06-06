@@ -39,9 +39,19 @@ PostgreSQL
 Oracle
 ~~~~~~
 
-Franciele, Lucas, Ederson, José Otávio, Johann
-Guilherme Borges, Rodrigo
+- Ederson Ruan Ravizza ´@EdersonRavizza <https://github.com/EdersonRavizza>´_
 
+- Francieli Klehm Tormes
+
+- Lucas Alves dos Santos
+
+- José Otavio Zamboni
+
+- Johann Sebastian Dulz
+
+- Guilherme Romano Borges
+
+- Rodrigo Lucas Medeiros Rufino
 
 .. admonition:: **Observação**
 

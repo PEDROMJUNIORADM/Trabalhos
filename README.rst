@@ -41,7 +41,7 @@ Oracle
 
 - Ederson Ruan Ravizza `@EdersonRavizza <https://github.com/EdersonRavizza>`_
 
-- Francieli Klehm Tormes
+- Francieli Klehm Tormes  `@FranKlehm <https://github.com/franklehm>`_
 
 - Lucas Alves dos Santos `@luksalvess <https://github.com/luksalvess>`_
 

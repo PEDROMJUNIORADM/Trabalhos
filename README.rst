@@ -45,7 +45,7 @@ Oracle
 
 - Lucas Alves dos Santos `@luksalvess <https://github.com/luksalvess>`_
 
-- José Otavio Zamboni
+- José Otavio Zamboni `@ZamboniP <https://github.com/ZamboniP>`_,
 
 - Johann Sebastian Dulz `@Malboro66 <https://github.com/Malboro66>`_
 

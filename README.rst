@@ -51,7 +51,7 @@ Oracle
 
 - Guilherme Romano Borges
 
-- Rodrigo Lucas Medeiros Rufino
+- Rodrigo Lucas Medeiros Rufino `@RodrigoRufelix <https://github.com/RodrigoRufelix>`_
 
 .. admonition:: **Observação**
 

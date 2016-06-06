@@ -41,13 +41,13 @@ Oracle
 
 - Ederson Ruan Ravizza `@EdersonRavizza <https://github.com/EdersonRavizza>`_
 
-- Francieli Klehm Tormes
+- Francieli Klehm Tormes  `@FranKlehm <https://github.com/franklehm>`_
 
-- Lucas Alves dos Santos
+- Lucas Alves dos Santos `@luksalvess <https://github.com/luksalvess>`_
 
 - José Otavio Zamboni
 
-- Johann Sebastian Dulz
+- Johann Sebastian Dulz `@Malboro66 <https://github.com/Malboro66>`_
 
 - Guilherme Romano Borges
 

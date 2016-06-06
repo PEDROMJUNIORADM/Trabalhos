@@ -16,13 +16,13 @@ Com base no script ``MinhaCaixa.sql`` que foi desenvolvido para MSSQL Server por
 
 MySQL
 ~~~~~
-- Alison `@alisonmazur <https://github.com/alisonmazur>`_,
 - Bruno `@brunofagundes <https://github.com/brunofagundes>`_,
 - Douglas `@DouglasGiovanella <https://github.com/douglasgiovanella>`_,
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
 - Joao Sampaio `@joaovdsampaio <https://github.com/joaovdsampaio>`_, 
 - Erick Euller Opelt `@erickeuller <https://github.com/erickeuller>`_, 
-Felipe Aug, Leonardo
+- Felipe Augusto Borges `@FelipeABorges <https://github.com/FelipeABorges>`_, 
+- Leonardo 
 
 PostgreSQL
 ~~~~~~~~~~
@@ -39,9 +39,19 @@ PostgreSQL
 Oracle
 ~~~~~~
 
-Franciele, Lucas, Ederson, José Otávio, Johann
-Guilherme Borges, Rodrigo
+- Ederson Ruan Ravizza `@EdersonRavizza <https://github.com/EdersonRavizza>`_
 
+- Francieli Klehm Tormes  `@FranKlehm <https://github.com/franklehm>`_
+
+- Lucas Alves dos Santos `@luksalvess <https://github.com/luksalvess>`_
+
+- José Otavio Zamboni `@ZamboniP <https://github.com/ZamboniP>`_,
+
+- Johann Sebastian Dulz `@Malboro66 <https://github.com/Malboro66>`_
+
+- Guilherme Romano Borges `@guilhermeeborges <https://github.com/guilhermeeborges>`_
+
+- Rodrigo Lucas Medeiros Rufino `@RodrigoRufelix <https://github.com/RodrigoRufelix>`_
 
 .. admonition:: **Observação**
 

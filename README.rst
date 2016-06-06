@@ -21,7 +21,8 @@ MySQL
 - Douglas `@DouglasGiovanella <https://github.com/douglasgiovanella>`_,
 - Rafael Martins `@ohrafaelmartins <https://github.com/ohrafaelmartins>`_, 
 - Joao Sampaio `@joaovdsampaio <https://github.com/joaovdsampaio>`_, 
-Felipe Aug, Leonardo, Erick, Bruno
+- Erick Euller Opelt `@erickeuller <https://github.com/erickeuller>`_, 
+Felipe Aug, Leonardo
 
 PostgreSQL
 ~~~~~~~~~~

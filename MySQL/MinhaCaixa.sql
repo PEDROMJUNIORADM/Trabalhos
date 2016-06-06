@@ -290,4 +290,276 @@ VALUES (DEFAULT,
 		'Blumenau', 
 		 400000,
 		 1);
-         
+
+INSERT INTO Contas 
+VALUES(4,
+	   'C-401',
+	   1,
+	   500,
+	   '2014-01-01');
+	   
+INSERT INTO Contas
+VALUES(4,
+	   'C-402',
+	   2,
+	   200,
+	   '2014-02-27');
+	   
+INSERT INTO Contas
+VALUES(4,
+	   'C-403',
+	   3,350,
+	   '2013-07-21');
+	   
+INSERT INTO Contas
+VALUES(4,
+	   'C-404',
+	   7,870,
+	   '2013-08-11');
+	   
+INSERT INTO Contas 
+VALUES(1,
+	   'C-101',
+	   11,
+	   800,
+	   '2013-08-03');
+	   
+INSERT INTO Contas 
+VALUES(2,
+	   'C-201',
+	   4,
+	   800,
+	   '2013-04-12');
+	   
+INSERT INTO Contas 
+VALUES(3,
+	   'C-301',
+	   5,
+	   400,
+	   '2014-07-04');
+	   
+INSERT INTO Contas 
+VALUES(5,
+	   'C-501',
+	   6,
+	   300,
+	   '2011-03-23');
+	   
+INSERT INTO Contas 
+VALUES(6,
+	   'C-601',
+	   8,
+	   900,
+	   '2013-10-12');
+	   
+INSERT INTO Contas 
+VALUES(7,
+	   'C-701',
+	   9,
+	   550,
+	   '2011-09-02');
+	   
+INSERT INTO Contas 
+VALUES(8,
+	   'C-801',
+	   10,
+	   1000,
+	   '2007-08-01');
+
+
+INSERT INTO Emprestimos 
+VALUES (4,
+	     1,
+		 'L-10',
+		 2000);
+		 
+INSERT INTO Emprestimos 
+VALUES (2,
+		4,
+		'L-20',
+		1500);
+		
+INSERT INTO Emprestimos 
+VALUES (4,
+		2,
+		'L-15',
+		1800);
+		
+INSERT INTO Emprestimos 
+VALUES (4,
+		3,
+		'L-30',
+		2500);
+		
+INSERT INTO Emprestimos 
+VALUES (6,
+		8,
+		'L-40',
+		3000);
+		
+INSERT INTO Emprestimos 
+VALUES (1,
+		11,
+		'L-35',
+		2800);
+		
+INSERT INTO Emprestimos 
+VALUES (4,
+		7,
+		'L-50',
+		2300);
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		4,
+		'C-401',
+		1,
+		500,
+		'2014-01-01');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		4,
+		'C-402',
+		2,
+		200,
+		'2014-02-27');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		4,
+		'C-403',
+		3,
+		350,
+		'2013-07-21');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		2,
+		'C-201',
+		4,
+		800,
+		'2013-04-12');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		3,
+		'C-301',
+		5,
+		400,
+		'2014-07-04');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		4,
+		'C-404',
+		7,
+		870,
+		'2013-08-11');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		5,
+		'C-501',
+		6,
+		300,
+		'2011-03-23');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		6,
+		'C-601',
+		8,
+		900,
+		'2013-10-12');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		7,
+		'C-701',
+		9,
+		550,
+		'2011-09-02');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		8,
+		'C-801',
+		10,
+		1000,
+		'2007-08-01');
+		
+INSERT INTO Depositantes 
+VALUES (DEFAULT,
+		1,
+		'C-101',
+		11,
+		800,
+		'2013-08-03');
+
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		4,
+		1,
+		'L-10',
+		1000);
+		
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		2,
+		4,
+		'L-20',
+		500);
+		
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		4,
+		2,
+		'L-15',
+		800);
+		
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		4,
+		3,
+		'L-30',
+		2000);
+		
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		6,
+		8,
+		'L-40',
+		2000);
+		
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		1,
+		11,
+		'L-35',
+		2600);
+		
+INSERT INTO Devedores 
+VALUES (DEFAULT,
+		4,
+		7,
+		'L-50',
+		2300);
+
+INSERT INTO CartaoCredito 
+VALUES (1,
+		12,
+		'1111-2222-3333-4444',
+		1000);
+		
+INSERT INTO CartaoCredito 
+VALUES	(4,
+		13,
+		'1234-4567-8910-1112',
+		1000);
+		
+INSERT INTO CartaoCredito 
+VALUES	(4,
+		7,
+		'2222-3333-4444-5555',2000);
+,2000);

@@ -57,7 +57,7 @@ SQL Server
 - Guilherme A,
 - Jose Raul, 
 
-- Felipe Walther, `@Walthers <https://github.com/Walthers>`_
+- Felipe Walther `@Walthers <https://github.com/Walthers>`_
 
 - Renan `@renandaniel <https://github.com/renandaniel>`_
 

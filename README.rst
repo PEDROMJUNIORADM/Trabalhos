@@ -50,13 +50,14 @@ SQL Server
 ~~~~~~~~~~
 
 
-- Felipe Walther, 
+
 - Gabriel Maia, 
 - Miguel, 
 - Andrei, 
 - Guilherme A,
 - Jose Raul, 
 
+- Felipe Walther, `@Walthers <https://github.com/Walthers>`_
 
 - Renan `@renandaniel <https://github.com/renandaniel>`_
 

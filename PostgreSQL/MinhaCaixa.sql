@@ -17,3 +17,14 @@ DROP DATABASE IF EXISTS minha_caixa;
 CREATE DATABASE minha_caixa;
 
 \connect minha_caixa
+
+
+-- Cria tabelas
+
+CREATE TABLE cliente (
+  codigo serial NOT NULL CONSTRAINT pk_cliente PRIMARY KEY,
+  nome varchar(50),
+  rua varchar(50),
+  cidade varchar(50),
+  nascimento timestamp
+);

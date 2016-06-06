@@ -39,7 +39,7 @@ PostgreSQL
 Oracle
 ~~~~~~
 
-- Ederson Ruan Ravizza ´@EdersonRavizza <https://github.com/EdersonRavizza>´_
+- Ederson Ruan Ravizza `@EdersonRavizza <https://github.com/EdersonRavizza>`_
 
 - Francieli Klehm Tormes
 

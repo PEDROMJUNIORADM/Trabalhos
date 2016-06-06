@@ -22,8 +22,7 @@ MySQL
 - Joao Sampaio `@joaovdsampaio <https://github.com/joaovdsampaio>`_, 
 - Erick Euller Opelt `@erickeuller <https://github.com/erickeuller>`_, 
 - Felipe Augusto Borges `@FelipeABorges <https://github.com/FelipeABorges>`_, 
-
-Leonardo
+- Leonardo 
 
 PostgreSQL
 ~~~~~~~~~~

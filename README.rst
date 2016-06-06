@@ -43,7 +43,7 @@ Oracle
 
 - Francieli Klehm Tormes
 
-- Lucas Alves dos Santos `@luksalvess <https://github.com/luksalvess>`_,
+- Lucas Alves dos Santos `@luksalvess <https://github.com/luksalvess>`_
 
 - José Otavio Zamboni
 

@@ -47,7 +47,7 @@ Oracle
 
 - José Otavio Zamboni
 
-- Johann Sebastian Dulz
+- Johann Sebastian Dulz `@Malboro66 <https://github.com/Malboro66>`_
 
 - Guilherme Romano Borges
 

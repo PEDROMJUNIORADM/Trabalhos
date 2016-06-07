@@ -562,4 +562,4 @@ INSERT INTO CartaoCredito
 VALUES	(4,
 		7,
 		'2222-3333-4444-5555',2000);
-,2000);
+

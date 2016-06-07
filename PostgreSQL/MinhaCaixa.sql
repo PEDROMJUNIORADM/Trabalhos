@@ -12,8 +12,18 @@ END; $$;
 DROP DATABASE IF EXISTS minha_caixa;
 
 
--- Cria banco de bados
+-- Cria banco de dados
 
 CREATE DATABASE minha_caixa;
 
 \connect minha_caixa
+
+
+-- Criar tabela grupo
+
+CREATE TABLE grupo (
+  codigo serial NOT NULL CONSTRAINT pk_grupo PRIMARY KEY,
+  nome varchar(50),
+  razao_social varchar(50),
+  cnpj varchar(20)
+);

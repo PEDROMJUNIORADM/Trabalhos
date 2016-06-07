@@ -1,0 +1,3 @@
+[submodule "SQLAlchemy"]
+	path = SQLAlchemy
+	url = https://github.com/BDAENGUniville/Trabalhos-SQLAlchemy.git

@@ -19,11 +19,22 @@ CREATE DATABASE minha_caixa;
 \connect minha_caixa
 
 
--- Criar tabela grupo
+-- Cria tabela grupo
 
 CREATE TABLE grupo (
   codigo serial NOT NULL CONSTRAINT pk_grupo PRIMARY KEY,
   nome varchar(50),
   razao_social varchar(50),
   cnpj varchar(20)
+);
+
+
+-- Cria tabela grupo
+
+CREATE TABLE cliente (
+  codigo serial NOT NULL CONSTRAINT pk_cliente PRIMARY KEY,
+  nome varchar(50),
+  rua varchar(50),
+  cidade varchar(50),
+  nascimento timestamp
 );

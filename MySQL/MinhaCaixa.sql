@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS MinhaCaixa;
+ DROP DATABASE IF EXISTS MinhaCaixa;
 /*Create Database*/
 CREATE DATABASE IF NOT EXISTS MinhaCaixa;
 

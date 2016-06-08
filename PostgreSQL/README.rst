@@ -69,8 +69,8 @@ SQL
 .. code-block:: sql
 
   CREATE TABLE tabela (
-    coluna integer,
-    CONSTRAINT pk_coluna PRIMARY KEY (coluna)
+    coluna integer CONSTRAINT pk_coluna PRIMARY KEY,
+    coluna2 varchar(20)
   );
 
   SELECT

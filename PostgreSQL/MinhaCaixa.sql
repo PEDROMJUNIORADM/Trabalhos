@@ -53,3 +53,14 @@ INSERT INTO cliente (nome, rua, cidade, nascimento) VALUES
   ('Juliana', 'Iririu', 'Joinville', '1970-01-06'),
   ('Pedro', 'Aventureiro', 'Joinville', '1975-06-08'),
   ('Julia', 'Nova Brasília', 'Joinville', '1985-03-18');
+
+
+-- Cria tabela agencia
+
+CREATE TABLE agencia (
+  codigo serial NOT NULL CONSTRAINT pk_agencia PRIMARY KEY,
+  nome varchar(50),
+  cidade varchar(50),
+  fundos numeric(20,2),
+  grupo_codigo integer CONSTRAINT fk_agencia_grupo REFERENCES grupo(codigo)
+);

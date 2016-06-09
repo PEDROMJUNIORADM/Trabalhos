@@ -28,6 +28,9 @@ CREATE TABLE grupo (
   cnpj varchar(20)
 );
 
+INSERT INTO grupo (nome, razao_social, cnpj) VALUES
+  ('MyBank', 'MyBank International SA', '11.222.333/0001-44');
+
 
 -- Cria tabela cliente
 

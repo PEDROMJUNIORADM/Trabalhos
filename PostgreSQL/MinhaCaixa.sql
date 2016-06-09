@@ -77,3 +77,14 @@ INSERT INTO agencia (nome, cidade, fundos, grupo_codigo) VALUES
   ('Criciúma', 'Criciúma', 500000, 1),
   ('Blumenau', 'Blumenau', 1100000, 1),
   ('Germânia', 'Blumenau', 400000, 1);
+
+
+-- Cria tabela conta
+
+CREATE TABLE conta (
+  numero varchar(10) CONSTRAINT pk_conta PRIMARY KEY,
+  saldo numeric(20,2),
+  abertura timestamp,
+  agencia_codigo integer CONSTRAINT fk_conta_agencia REFERENCES agencia(codigo),
+  cliente_codigo integer CONSTRAINT fk_conta_cliente REFERENCES cliente(codigo)
+);

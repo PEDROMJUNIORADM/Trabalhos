@@ -67,3 +67,13 @@ CREATE TABLE agencia (
   fundos numeric(20,2),
   grupo_codigo integer CONSTRAINT fk_agencia_grupo REFERENCES grupo(codigo)
 );
+
+INSERT INTO agencia (nome, cidade, fundos, grupo_codigo) VALUES
+  ('Verde Vale', 'Blumenau', 900000, 1),
+  ('Cidade das Flores', 'Joinville', 800000, 1),
+  ('Universitária', 'Florianópolis', 750000, 1),
+  ('Joinville', 'Joinville', 950000, 1),
+  ('Beira Mar', 'Florianópolis', 600000, 1),
+  ('Criciúma', 'Criciúma', 500000, 1),
+  ('Blumenau', 'Blumenau', 1100000, 1),
+  ('Germânia', 'Blumenau', 400000, 1);

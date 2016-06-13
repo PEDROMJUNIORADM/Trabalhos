@@ -86,7 +86,23 @@ create table IF NOT EXISTS CartaoCredito
     CONSTRAINT PK_CARTAOCREDITO PRIMARY KEY (CartaoCodigo)
 );
 
+ALTER TABLE Agencias ADD CONSTRAINT FK_GRUPOS_AGENCIAS 
+FOREIGN KEY ( GrupoCodigo ) REFERENCES Grupo (GrupoCodigo);
 
+ALTER TABLE CartaoCredito ADD CONSTRAINT FK_CARTAOCREDITO_AGENGIA
+FOREIGN KEY ( AgenciaCodigo ) REFERENCES Agencias(AgenciaCodigo);
+
+ALTER TABLE CartaoCredito ADD CONSTRAINT FK_CARTAOCREDITO_CLIENTES 
+FOREIGN KEY ( ClienteCodigo ) REFERENCES Clientes (ClienteCodigo);
+
+ALTER TABLE Contas ADD CONSTRAINT FK_CLIENTES_CONTAS 
+FOREIGN KEY  ( ClienteCodigo ) REFERENCES Clientes (ClienteCodigo);
+
+ALTER TABLE Contas ADD CONSTRAINT FK_AGENCIA_CONTAS 
+FOREIGN KEY  ( AgenciaCodigo ) REFERENCES Agencias (AgenciaCodigo);
+
+ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_EMPRESTIMO 
+FOREIGN KEY ( EmprestimoCodigo ) REFERENCES Emprestimos (EmprestimoCodigo);
 
 INSERT INTO Grupo(GrupoNome, GrupoRazaoSocial, GrupoCNPJ)
 VALUES ('MyBank',

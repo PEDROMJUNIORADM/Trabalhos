@@ -66,7 +66,7 @@ SQL Server
 - Miguel, 
 - Andrei, 
 - Guilherme A,
-- Jose Raul, 
+- Jose Raul `@jraul2016 <https://github.com/jraul2016>´_
 
 - Felipe Walther `@Walthers <https://github.com/Walthers>`_
 

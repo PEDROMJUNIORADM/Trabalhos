@@ -66,13 +66,13 @@ SQL Server
 - Miguel, 
 - Andrei, 
 - Guilherme A,
-- Jose Raul `@jraul2016 <https://github.com/jraul2016>´_
+- Jose Raul `@jraul2016 <https://github.com/jraul2016>`_
 
 - Felipe Walther `@Walthers <https://github.com/Walthers>`_
 
 - Renan `@renandaniel <https://github.com/renandaniel>`_
 
-- Karlos `@karloskep <https://github.com/karloskep>`_
+- Karlos `@karloskep <https://github.com/karloskep>`_ 
 
 - Felipe Prestes `@felipeprestess <https://github.com/felipeprestess>`_
 

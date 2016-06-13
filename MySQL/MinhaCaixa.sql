@@ -104,6 +104,28 @@ FOREIGN KEY  ( AgenciaCodigo ) REFERENCES Agencias (AgenciaCodigo);
 ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_EMPRESTIMO 
 FOREIGN KEY ( EmprestimoCodigo ) REFERENCES Emprestimos (EmprestimoCodigo);
 
+ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_AGENGIA
+FOREIGN KEY (AgenciaCodigo) REFERENCES Agencias(AgenciaCodigo);
+
+ALTER TABLE Emprestimos ADD CONSTRAINT FK_EMPRESTIMOS_CLIENTES 
+FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
+
+ALTER TABLE Depositantes ADD CONSTRAINT FK_CONTA_AGENGIA 
+FOREIGN KEY  (AgenciaCodigo) REFERENCES Agencias (AgenciaCodigo);
+
+ALTER TABLE Depositantes ADD CONSTRAINT FK_DEPOSITANTES_CONTAS 
+FOREIGN KEY  (ContaNumero) REFERENCES Contas (ContaNumero);
+
+ALTER TABLE Depositantes ADD CONSTRAINT FK_DEPOSITANTES_CLIENTES 
+FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
+
+ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_AGENGIA 
+FOREIGN KEY  (AgenciaCodigo) REFERENCES Agencias (AgenciaCodigo);
+
+ALTER TABLE Devedores ADD CONSTRAINT FK_DEVEDORES_CONTAS 
+FOREIGN KEY  (ClienteCodigo) REFERENCES Clientes (ClienteCodigo);
+
+
 INSERT INTO Grupo(GrupoNome, GrupoRazaoSocial, GrupoCNPJ)
 VALUES ('MyBank',
         'MyBank International SA',

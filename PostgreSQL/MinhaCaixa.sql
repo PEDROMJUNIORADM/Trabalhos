@@ -88,3 +88,13 @@ CREATE TABLE conta (
   agencia_codigo integer CONSTRAINT fk_conta_agencia REFERENCES agencia(codigo),
   cliente_codigo integer CONSTRAINT fk_conta_cliente REFERENCES cliente(codigo)
 );
+
+
+-- Cria tabela emprestimo
+
+CREATE TABLE emprestimo (
+  agencia_codigo integer CONSTRAINT fk_emprestimo_agencia REFERENCES agencia(codigo),
+  cliente_codigo integer CONSTRAINT fk_emprestimo_cliente REFERENCES cliente(codigo),
+  codigo varchar(10),
+  total numeric(20, 2)
+);

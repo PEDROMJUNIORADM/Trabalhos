@@ -89,6 +89,19 @@ CREATE TABLE conta (
   cliente_codigo integer CONSTRAINT fk_conta_cliente REFERENCES cliente(codigo)
 );
 
+INSERT INTO conta (numero, saldo, abertura, agencia_codigo, cliente_codigo) VALUES
+  ('C-401', 500, '2014-01-01', 4, 1),
+  ('C-402', 200, '2014-02-27', 4, 2),
+  ('C-403', 350, '2014-07-21', 4, 3),
+  ('C-404', 870, '2013-08-11', 4, 7),
+  ('C-101', 800, '2013-08-03', 1, 11),
+  ('C-201', 800, '2013-04-12', 2, 4),
+  ('C-301', 400, '2014-07-04', 4, 5),
+  ('C-501', 300, '2011-03-23', 5, 6),
+  ('C-601', 900, '2013-10-12', 6, 8),
+  ('C-701', 550, '2011-09-02', 7, 9),
+  ('C-801', 1000, '2007-08-01', 8, 10);
+
 
 -- Cria tabela emprestimo
 

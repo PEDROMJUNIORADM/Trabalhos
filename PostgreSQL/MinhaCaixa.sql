@@ -111,3 +111,15 @@ CREATE TABLE emprestimo (
   codigo varchar(10),
   total numeric(20, 2)
 );
+
+
+ -- Insere na tabela emprestimo
+
+INSERT INTO emprestimo VALUES
+  (4, 1, 'L-10', 2000),
+  (2, 4, 'L-20', 1500),
+  (4, 2, 'L-15', 1800),
+  (4, 3, 'L-30', 2500),
+  (6, 8, 'L-40', 3000),
+  (1, 11, 'L-35', 2800),
+  (4, 7 , 'L-50', 2300);

@@ -133,3 +133,10 @@ CREATE TABLE cartao_credito (
   codigo integer CONSTRAINT pk_cartao_credito_codigo PRIMARY KEY,
   limite numeric(20,2)
 );
+
+-- Insere na tabela cartao_credito
+
+INSERT INTO cartao_credito VALUES
+  (1, 12, '1111-2222-3333-4444', 1000),
+  (4, 13, '1234-4567-8910-1112', 1000),
+  (4, 7, '2222-3333-4444-5555', 2000);

@@ -50,6 +50,15 @@ CREATE TABLE Loja(
 	cnpj int
 )
 
+CREATE TABLE Compra(
+codCompra int CONSTRAINT PK_COMPRA PRIMARY KEY,
+codLoja int,
+qntTotalItens int,
+valorTotalCompras MONEY,
+CONSTRAINT FK_LOJA_COMPRA FOREIGN KEY (codLoja) REFERENCES Loja (codLoja),
+)
+
+
 CREATE TABLE Venda (
 	codVenda INT IDENTITY(1,1),
 	codFuncionario INT,

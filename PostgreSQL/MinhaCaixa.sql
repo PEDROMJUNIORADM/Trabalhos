@@ -123,3 +123,13 @@ INSERT INTO emprestimo VALUES
   (6, 8, 'L-40', 3000),
   (1, 11, 'L-35', 2800),
   (4, 7 , 'L-50', 2300);
+
+
+-- Cria tabela cartao_credito
+
+CREATE TABLE cartao_credito (
+  agencia_codigo integer CONSTRAINT fk_cartao_credito_agencia REFERENCES agencia(codigo),
+  cliente_codigo integer CONSTRAINT fk_cartao_credito_cliente REFERENCES cliente(codigo),
+  codigo integer CONSTRAINT pk_cartao_credito_codigo PRIMARY KEY,
+  limite numeric(20,2)
+);

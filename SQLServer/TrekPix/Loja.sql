@@ -36,6 +36,13 @@ CREATE TABLE Cliente(
 	endereco varchar(255)
 )
 
+CREATE TABLE Produtos(
+	codProduto INT IDENTITY (1,1) CONSTRAINT PK_PRODUTO PRIMARY KEY,
+	ProdutoNome VARCHAR (45),
+	ProdutoUnidadeMedida VARCHAR(5),
+	ProdutoValor DECIMAL
+)
+
 CREATE TABLE Loja(
 	codLoja int,
 	nomeLoja varchar (255),
@@ -77,3 +84,5 @@ ADD CONSTRAINT FK_VENDA_CLIENTE FOREIGN KEY (codCliente) REFERENCES CLIENTE(codC
 
 ALTER TABLE VENDA 
 ADD CONSTRAINT PK_VENDA PRIMARY KEY (codVenda,codFuncionario,codLoja,codCliente)
+
+

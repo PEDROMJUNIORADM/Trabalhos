@@ -36,3 +36,27 @@ sexo CHAR(1),
 email VARCHAR(45),
 dataNascimento DATETIME
 )
+
+CREATE TABLE Loja(
+codLoja int,
+nomeLoja varchar (255),
+enderecoLoja varchar (255),
+cnpj int,
+)
+
+CREATE TABLE VendasProduto(
+codProduto int,
+codVenda int, 
+quantidade int,
+)
+
+CREATE TABLE Cliente(
+codCliente int,
+nascimento date,
+nome varchar (255),
+sexo varchar (10),
+email varchar (255),
+cpf int,
+endereco varchar(255)
+)
+

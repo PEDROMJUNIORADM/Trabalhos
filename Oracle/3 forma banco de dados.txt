@@ -8,8 +8,9 @@ Contas (#AgenciaCodigo, @ContaNumero, #ClienteCodigo, ContaSaldo, ContaAbertura)
 
 Emprestimos (#AgenciaCodigo, #ClienteCodigo, @EmprestimoCodigo, EmprestimoTotal)
 
-Depositantes (AgenciaCodigo, ContaNumero, ClienteCodigo, DepositoValor, DepositoData)
+Depositantes (#AgenciaCodigo, #ContaNumero, #ClienteCodigo, DepositoValor, DepositoData)
 
-Devedores (AgenciaCodigo, ClienteCodigo, EmprestimoCodigo, DevedorSaldo)
+Devedores (#AgenciaCodigo, #ClienteCodigo, #EmprestimoCodigo, DevedorSaldo)
 
-CartaoCredito (AgenciaCodigo, ClienteCodigo, CartaoCodigo, CartaoLimite)
+CartaoCredito (#AgenciaCodigo, #ClienteCodigo, @CartaoCodigo, CartaoLimite)
+

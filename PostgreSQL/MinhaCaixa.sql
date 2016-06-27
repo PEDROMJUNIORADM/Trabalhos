@@ -125,6 +125,16 @@ INSERT INTO emprestimo VALUES
   (4, 7 , 'L-50', 2300);
 
 
+-- Cria tabela devedor
+
+CREATE TABLE devedor (
+  saldo numeric(20,2),
+  emprestimo_codigo integer CONSTRAINT fk_devedor_emprestimo REFERENCES emprestimo(codigo),
+  agencia_codigo integer CONSTRAINT fk_devedor_agencia REFERENCES agencia(codigo),
+  cliente_codigo integer CONSTRAINT fk_devedor_cliente REFERENCES cliente(codigo)
+);
+
+
 -- Cria tabela cartao_credito
 
 CREATE TABLE cartao_credito (

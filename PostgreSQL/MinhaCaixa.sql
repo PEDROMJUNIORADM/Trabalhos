@@ -165,3 +165,18 @@ CREATE TABLE depositante (
   agencia_codigo integer CONSTRAINT fk_depositante_agencia REFERENCES agencia(codigo),
   cliente_codigo integer CONSTRAINT fk_depositante_cliente REFERENCES cliente(codigo)
 );
+
+-- Insere na tabela depositante
+
+INSERT INTO depositante (valor,deposito,conta_numero,agencia_codigo,cliente_codigo) VALUES
+  (500, '2014-01-01', 'C-401', 4, 1),
+  (200, '2014-02-27', 'C-402', 4, 2),
+  (350, '2013-07-21', 'C-403', 4, 3),
+  (870, '2013-08-11', 'C-404', 4, 7),
+  (800, '2013-08-03', 'C-101', 1, 11),
+  (800, '2013-04-12', 'C-201', 2, 4),
+  (400, '2014-07-04', 'C-301', 3, 5),
+  (300, '2011-03-23', 'C-501', 5, 6),
+  (900, '2013-10-12', 'C-601', 6, 8),
+  (550, '2011-09-02', 'C-701', 7, 9),
+  (1000, '2017-08-01', 'C-801', 8, 10);

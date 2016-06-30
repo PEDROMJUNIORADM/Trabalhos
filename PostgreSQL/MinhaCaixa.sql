@@ -154,3 +154,14 @@ CREATE TABLE cartao_credito (
   codigo integer CONSTRAINT pk_cartao_credito_codigo PRIMARY KEY,
   limite numeric(20,2)
 );
+
+
+-- Cria tabela depositante
+
+CREATE TABLE depositante (
+  valor numeric(20,2),
+  deposito timestamp,
+  conta_numero integer CONSTRAINT fk_depositante_conta REFERENCES conta(numero),
+  agencia_codigo integer CONSTRAINT fk_depositante_agencia REFERENCES agencia(codigo),
+  cliente_codigo integer CONSTRAINT fk_depositante_cliente REFERENCES cliente(codigo)
+);

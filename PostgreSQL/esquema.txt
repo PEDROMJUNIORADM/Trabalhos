@@ -1,0 +1,24 @@
+ESQUEMA LÓGICO
+
+Agencias(AgenciaCodigo,AgenciaNome,AgenciaCidade,AgenciaFundos,GrupoCodigo)
+
+
+Grupo(GrupoCodigo,GrupoNome,GrupoRazaoSocial,GrupoCNPJ)
+
+
+Emprestimos(AgenciaCodigo,ClienteCodigo,EmprestimoCodigo,EmprestimoTotal)
+
+
+Contas(AgenciaCodigo,ContaNumero,ClienteCodigo,ContaSaldo,ContaAbertura)
+
+
+Depositantes(AdenciaCodigo,ContaNumero,ClienteCodigo,DepositoValor,DepositoData)
+
+
+Clientes(ClienteCodigo,ClienteNome,ClienteRua,ClienteCidade,ClienteNascimento)
+
+
+Devedores(DevedoresCodigo,AgenciaCodigo,ClienteCodigo,EmprestimoCodigo,DevedorSaldo)
+
+
+CartaoCredito(AgenciaCodigo,ClienteCodigo,CartaoCodigo,CartaoLimite)

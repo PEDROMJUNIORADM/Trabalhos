@@ -9,4 +9,4 @@ env:
   - DB=pg
 
 script:
-  - bash -c "[ '$DB' == 'pg' ] && psql -U postgres -f PostgreSQL/MinhaCaixa.sql"
+  - bash -c "[ '$DB' == 'pg' ] && (psql -U postgres -f PostgreSQL/MinhaCaixa.sql 2> errors; cat errors; exit \"\$(cat errors | wc -l)\")"
